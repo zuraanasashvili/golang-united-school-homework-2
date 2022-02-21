@@ -20,7 +20,7 @@ const SidesCircle custType = 0
 
 func CalcSquare(sideLen float64, sidesNum custType) float64 {
 	if sidesNum == SidesTriangle {
-		return (math.Sqrt(3)*sidesLen ^ 2) / 4
+		return (math.Sqrt(3)*sideLen ^ 2) / 4
 	} else if sidesNum == SidesSquare {
 		return sideLen * sideLen
 	} else if sidesNum == SidesCircle {
