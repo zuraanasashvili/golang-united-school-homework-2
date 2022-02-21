@@ -14,9 +14,9 @@ import "math"
 
 type custType int
 
-const SidesTriangle int = 3
-const SidesSquare int = 4
-const SidesCircle int = 0
+const SidesTriangle custType = 3
+const SidesSquare custType = 4
+const SidesCircle custType = 0
 
 func CalcSquare(sideLen float64, sidesNum custType) float64 {
 	if sidesNum == SidesTriangle {
